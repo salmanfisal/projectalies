@@ -1,0 +1,224 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: black;
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  width: 95vw;
+  height: 90vh;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+  margin: 40px 40px;
+  color: black;
+}
+.container_images {
+  display: flex;
+  margin: 40px;
+  border: 1px solid black;
+}
+.container_images img {
+  object-fit: cover;
+  width: 250px;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 30vh;
+}
+.container_button {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(133, 17, 241);
+}
+.container_button2 {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(131, 20, 234);
+}
+.container_popup {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  position: absolute;
+  background-color: rgb(125, 222, 222);
+  border-radius: 10px;
+  width: 40vw;
+  height: 50vh;
+  padding-top: 100px;
+}
+.container_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.container_label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  gap: 70px;
+  left: 40px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.container_input input {
+  padding: 15px;
+  width:20vw;
+  border-radius: 10px;
+}
+.container_input textarea {
+  width: 22vw;
+  border-radius: 10px;
+  padding-bottom:40px;
+}
+.container_area {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+  left: 60px;
+}
+.container_table {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  position: absolute;
+  top:40px;
+  left:200px;
+}
+.container_table th {
+  padding: 20px;
+  font-size: 25px;
+  border-left: 1px solid black; 
+  border-right: 1px solid black;
+}
+.container_table tr {
+  border-bottom: 1px solid  black;
+ font-size: 20px;
+}
+.container_table td {
+  padding: 12px; 
+  text-align: left;
+  border-left: 1px solid black; 
+  border-right: 1px solid black;
+}
+@media (max-width:1230px) {
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 95vw;
+    height: 60vh;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin: 40px 40px;
+    color: black;
+  }
+    .container_popup {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      position: absolute;
+      background-color: rgb(125, 222, 222);
+      border-radius: 10px;
+      width: 50vw;
+      margin-bottom: 50px;
+      padding-top: 100px;
+      height: 30vh;
+      padding-left:80px;
+      scale: 1.2;
+
+    }
+    .container_input {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .container_label {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      gap: 70px;
+      left:0;
+      margin-top: 10px;
+      font-size: 20px;
+
+    }
+    
+    .container_input input {
+      padding: 15px;
+      width:35vw;
+      border-radius: 10px;
+    }
+    .container_input textarea {
+      width: 38vw;
+      border-radius: 10px;
+    }
+    .container_area {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 50px;
+      left: 60px;
+    }
+    .container_table {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      gap: 20px;
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      top:200px;
+      left:40px;
+    }
+    .container_table th {
+      padding: 20px;
+      font-size: 25px;
+      border-left: 1px solid black; 
+      border-right: 1px solid black;
+    }
+    .container_table tr {
+      border-bottom: 1px solid  black;
+     font-size: 20px;
+    }
+    .container_table td {
+      padding: 12px; 
+      text-align: left;
+      border-left: 1px solid black; 
+      border-right: 1px solid black;
+    }
+
+}
