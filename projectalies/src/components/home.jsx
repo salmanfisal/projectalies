@@ -50,7 +50,7 @@ function Home() {
 
             <label>Price:</label>
 
-            <label>Description:</label>
+            <label>Desc:</label>
           </div>
           <form>
             <div className="container_input">
