@@ -168,19 +168,20 @@
       flex-direction: column;
       position: absolute;
       gap: 70px;
-      left:0;
+      left:8px;
       margin-top: 10px;
-      font-size: 20px;
+      font-size: 18px;
 
     }
     
     .container_input input {
-      padding: 15px;
-      width:35vw;
+      width:40vw;
+      margin-right: 15px;
       border-radius: 10px;
     }
     .container_input textarea {
-      width: 38vw;
+      width: 47vw;
+      margin-right: 15px;
       border-radius: 10px;
     }
     .container_area {
@@ -223,6 +224,19 @@
 }
 
 @media(max-width:576px){
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 80vh;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin: 10px 10px;
+    color: black;
+  }
   .container_table {
     display: flex;
     flex-direction: column;
@@ -232,7 +246,7 @@
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    top:200px;
+    top:50px;
     left:0px;
   }
   .container_table th {
@@ -243,12 +257,41 @@
   }
   .container_table tr {
     border-bottom: 1px solid  black;
-   font-size: 20px;
+   font-size: 12px;
   }
   .container_table td {
+    overflow: hidden;
     padding: 12px; 
     text-align: left;
     border-left: 1px solid black; 
     border-right: 1px solid black;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-width: 100px;
   }
+  .container_button {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(133, 17, 241);
+  }
+  .container_popup {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: absolute;
+    background-color: rgb(125, 222, 222);
+    border-radius: 10px;
+    width: 55vw;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    height: 40vh;
+    padding-left:80px;
+overflow: hidden;
+  }
+ 
 }
